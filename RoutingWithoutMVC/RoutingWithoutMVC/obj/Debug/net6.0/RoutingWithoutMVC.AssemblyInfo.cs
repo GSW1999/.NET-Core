@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoutingWithoutMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fd767a5ed38fd089ab6026c90e03fc794734b6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46dd15b56e0cda535ef4e1d00ba467723167d61f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoutingWithoutMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoutingWithoutMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

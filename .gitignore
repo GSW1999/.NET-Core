@@ -3,3 +3,6 @@
 
 # Ignore GitHub configuration folder
 .github/
+
+RoutingWithoutMVC/RoutingWithoutMVC/bin/
+RoutingWithoutMVC/RoutingWithoutMVC/obj/
