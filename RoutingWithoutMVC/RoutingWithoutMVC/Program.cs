@@ -1,4 +1,4 @@
-/*  ROUTING CODE: UNCOMMENT TO ENABLE ROUTING
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews(); //this service is required to perform routing required in both routing types
@@ -16,7 +16,8 @@ var app = builder.Build();
 app.MapControllers();
 
 
-*/
+
+/*
 
 // Map Methods
 using System.Net.Security;
@@ -33,4 +34,5 @@ var app=builder.Build();
 //app.MapDelete("/", () => "Hello World - DELETE");
 
 //Best Approach
+*/
 app.Run(); 

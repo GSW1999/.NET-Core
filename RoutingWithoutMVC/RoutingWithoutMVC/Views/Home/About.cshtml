@@ -3,5 +3,33 @@
     ViewData["Title"] = "About";
 }
 
-<h1>About View of Home Controller</h1>
+@{
+    var pageName = "About Us";
+    var course = ".NET Core Tutorial";
+}
+<h1>@pageName Page</h1>
+<h2>This is @course</h2>
+<h3>Current Year is @DateTime.Now.Year</h3>
+
+@{
+    if(true){
+        <h1>This is Razor View</h1>
+    }
+    else{
+        <h1>Error</h1>
+    }
+
+}
+
+@{
+    for(int i=0;i<10;i++){
+        <span>.NET&nbsp;</span>
+
+    }
+
+    string[] names = { "One", "Two", "Three" };
+    foreach(var name in names ){
+        <h2>@name</h2>
+    }
+}
 
