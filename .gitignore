@@ -4,5 +4,8 @@
 # Ignore GitHub configuration folder
 .github/
 
-@Ignore  bin folder
+#Ignore  bin folder
 RoutingWithoutMVC/RoutingWithoutMVC/bin/
+
+#Ignore  bin folder
+RoutingWithoutMVC/RoutingWithoutMVC/obj/
