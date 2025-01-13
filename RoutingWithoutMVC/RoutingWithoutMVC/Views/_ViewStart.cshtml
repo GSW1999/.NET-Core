@@ -1,0 +1,10 @@
+﻿@{
+    if(User.IsInRole("Admin")){
+    Layout = "_Layout";
+    }
+    else{
+        Layout = "_Layout_New";
+    }
+    ViewData["Title"] = "Welcome";
+    ViewData["ApplicationName"] = "My ASP.NET core MVC App";
+}
